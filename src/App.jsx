@@ -1,18 +1,14 @@
-
-import React from "react"
-import Navbar from "./components/Navbar"
-import { BrowserRouter as Router } from "react-router-dom"
-import "./App.css"
-import Sidebar from "./components/Sidebar"
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import "./App.css";
+import Home from "./pages";
 
 function App() {
- 
   return (
     <Router>
-      <Sidebar />
-      <Navbar />
+      <Home />
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
